@@ -1,0 +1,27 @@
+{
+    "network":
+        {
+            "number_of_threads": 5,
+            "server_port": 443,
+            "certificates_path": "./certificates"
+        },
+    "messengers":
+        {
+            "viber": 
+                {
+                    "http_host": "chatapi.viber.com",
+                    "http_target": "/pa/send_message",
+                    "x-viber-auth-token": "none", 
+                    "webhook_target_comparison_string": "/viberbot?",
+                    "chat_bot_sender_name": "(づ｡◕‿‿◕｡)づ"
+                },
+            "telegram": 
+                {
+                    "http_host": "api.telegram.org",
+                    "http_target_prefix": "/bot",
+                    "token": "none", 
+                    "http_target_method_send_message": "/sendMessage",
+                    "webhook_target_comparison_string": "/tlgrm"
+                }
+        }
+}

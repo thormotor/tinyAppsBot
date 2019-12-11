@@ -1,0 +1,23 @@
+{
+	"update_id":210734971,
+	"message":{
+		"message_id":2464,
+		"from":{
+			"id":508047187,
+			"is_bot":false,
+			"first_name":"-",
+			"last_name":"-",
+			"username":"Metahondr",
+			"language_code":"ru"
+			},
+		"chat":{
+			"id":508047187,
+			"first_name":"-",
+			"last_name":"-",
+			"username":"Metahondr",
+			"type":"private"
+			},
+		"date":1548492609,
+		"text":"Udud"
+		}
+}
